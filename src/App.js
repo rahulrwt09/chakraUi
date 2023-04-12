@@ -1,11 +1,29 @@
-import { Container } from "@chakra-ui/react";
+import { SimpleGrid,Box } from '@chakra-ui/react'
 function App() {
   return (
     <div className="App">
-    
-    <Container style={{border:'1px solid'}}>
-     hi
-    </Container>
+    <SimpleGrid columns={4} spacing={10}>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+  <Box bg='tomato' height='80px'></Box>
+</SimpleGrid>
  
         
     </div>
