@@ -1,15 +1,11 @@
-import { Center } from '@chakra-ui/react';
-import { IconButton } from '@chakra-ui/react'
-import {ChatIcon} from  "@chakra-ui/icons"
+import { Container } from "@chakra-ui/react";
 function App() {
   return (
     <div className="App">
     
-    
-   <Center w="40px" h="40px"  bg="tomato" color="white"> 
-    < ChatIcon />
-      
-      </Center>
+    <Container style={{border:'1px solid'}}>
+     hi
+    </Container>
  
         
     </div>
