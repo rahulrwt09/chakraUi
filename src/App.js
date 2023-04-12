@@ -1,10 +1,10 @@
-import { Button } from '@chakra-ui/react';
-import './App.css';
 
+import { Spinner } from '@chakra-ui/react'
 function App() {
   return (
     <div className="App">
-          <Button colorScheme="blue">Click me!</Button>
+ <Spinner color='red.500' />
+        
     </div>
   );
 }
